@@ -1,0 +1,592 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'teljesRendelesek':  the readable size is '(unsigned int)*28+4' bytes, but 'rendelesekSzama' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                },
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 15,
+                  "endLine": 39,
+                  "endColumn": 148
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?insertTeljesRendeles@RudiGyar@@SA_NAAVTeljesRendeles@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp' is a 28 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'rendelesekSzama' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'rendelesekSzama' is an Output from 'TeljesRendeles::=' (declared at c:\\users\\domip\\desktop\\prog2\\hazi\\hazi\\hazi\\teljesrendeles.h:26)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "(alias) 'teljesRendelesek' receives the value of 'tmp'"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'rendelesekSzama' is an Output from 'TeljesRendeles::getRendeles' (declared at c:\\users\\domip\\desktop\\prog2\\hazi\\hazi\\hazi\\teljesrendeles.h:21)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'teljesRendelesek', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'tmp':  the readable size is '(unsigned int)*28+4' bytes, but 'rendelesekSzama' bytes may be read."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                },
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 5,
+                  "endLine": 35,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?insertTeljesRendeles@RudiGyar@@SA_NAAVTeljesRendeles@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 53
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'tmp' is a 28 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 34,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 50
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'rendelesekSzama' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "'rendelesekSzama' is an Output from 'TeljesRendeles::=' (declared at c:\\users\\domip\\desktop\\prog2\\hazi\\hazi\\hazi\\teljesrendeles.h:26)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 28
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'tmp', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "suppressions": []
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00DFB1C0 -il C:\\Users\\domip\\AppData\\Local\\Temp\\_CL_9aef8342ast -typedil -f RudiGyar.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\RudiGyar.obj -FdDebug\\vc142.pdb -Gd -analyze:projectdirectory C:\\Users\\domip\\Desktop\\prog2\\Hazi\\Hazi\\Hazi -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/time.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "14d884e07c284a957acccea2ed3a0003"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/time.h"
+          },
+          "hashes": {
+            "md5": "ee00adda349d07831cfc466a0869e7ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/teljesrendeles.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ad4b52174b6fa1a9cf92052343509a3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/teljesrendeles.h"
+          },
+          "hashes": {
+            "md5": "fb465d887992261f0dca1941281905dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/rendeles.h"
+          },
+          "hashes": {
+            "md5": "bf45ed8afdad905c1145e0a7bbe0e5c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/domip/desktop/prog2/hazi/hazi/hazi/rudigyar.h"
+          },
+          "hashes": {
+            "md5": "f80fff7ab79beaf2c2fc30c49ff3804b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/domip/Desktop/prog2/Hazi/Hazi/Hazi/RudiGyar.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "8a13506a7778736762f87ccf1ed7c7d5"
+          }
+        }
+      ]
+    }
+  ]
+}

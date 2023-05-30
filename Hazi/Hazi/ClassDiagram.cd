@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rendeles">
+    <Position X="7.75" Y="2.5" Width="2" />
+    <AssociationLine Name="leszallitasiDatum" Type="Time" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="4.431" />
+        <Point X="7.375" Y="4.431" />
+        <Point X="7.375" Y="7.625" />
+        <Point X="7" Y="7.625" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.079" Y="-0.253" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAjAAAwAAAgAgACAgAAAAAAAAAAAgACAEAAgAAAACAA=</HashCode>
+      <FileName>Rendeles.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="leszallitasiDatum" />
+      <Field Name="rendeltRudi" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RudiGyar">
+    <Position X="1" Y="0.75" Width="2.75" />
+    <AssociationLine Name="utolsoGyartasVege" Type="Time" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.75" Y="4.132" />
+        <Point X="4.125" Y="4.132" />
+        <Point X="4.125" Y="7.625" />
+        <Point X="4.75" Y="7.625" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.048" Y="-0.263" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>yACABAAAIARAIiAEIAAAhAAABAiQAASCIAEAAAAFAAg=</HashCode>
+      <FileName>RudiGyar.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="currentState" />
+      <Field Name="utolsoGyartasVege" />
+      <Field Name="rendelesek" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TeljesRendeles">
+    <Position X="4.75" Y="2" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BABAAAQAAAgAgACAABAAAAAAAEAAAAAAAARgAAAAAEA=</HashCode>
+      <FileName>TeljesRendeles.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="reszRendelesek" />
+      <Field Name="leszallitasiDatum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Time">
+    <Position X="4.75" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAkAAAAIAAAAAAAAAAEQQAAAAQAAgAAAAAiQAQAwQA=</HashCode>
+      <FileName>Time.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="std::vector&lt;_Ty, _Alloc&gt;" Collapsed="true">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AWAEk4EqCrBsCEBAAOMIIAAyAAUEQBIghQkwgkAFUko=</HashCode>
+      <FileName>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\vector</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RudiMeret">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAQABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rendeles.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

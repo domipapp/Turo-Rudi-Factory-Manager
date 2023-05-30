@@ -1,0 +1,14 @@
+﻿  Rendeles.cpp
+  RudiGyar.cpp
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(59,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(160,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(169,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(178,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(187,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\RudiGyar.cpp(189,23): warning C4018: '<': signed/unsigned mismatch
+  TeljesRendeles.cpp
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\TeljesRendeles.cpp(31,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\TeljesRendeles.cpp(101,23): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  Hazi.vcxproj -> C:\Users\domip\Desktop\prog2\Hazi\Hazi\Debug\Hazi.exe

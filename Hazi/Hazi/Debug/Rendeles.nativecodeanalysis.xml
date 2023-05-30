@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\domip\Desktop\prog2\Hazi\Hazi\Hazi\</FILEPATH>
+      <FILENAME>Rendeles.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Rendeles::mennyiseg' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Rendeles::{ctor}</FUNCTION>
+    <DECORATED>??0Rendeles@@QAE@W4RudiMeret@@N@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Rendeles::mennyiseg</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
